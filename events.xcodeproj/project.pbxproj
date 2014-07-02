@@ -6,8 +6,62 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0698C39919569E1500E0C037 /* SCgetClientAddr.c in Sources */ = {isa = PBXBuildFile; fileRef = 0698C39819569E1500E0C037 /* SCgetClientAddr.c */; };
+		06DE33A919587B4700A6F7D8 /* SCdel_eventPtr.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DE33A819587B4700A6F7D8 /* SCdel_eventPtr.c */; };
+		06DE33AB1958A96D00A6F7D8 /* SCget_bufferPtr.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DE33AA1958A96D00A6F7D8 /* SCget_bufferPtr.c */; };
+		06DE33AD1958BEA800A6F7D8 /* SCdel_bufferPtr.c in Sources */ = {isa = PBXBuildFile; fileRef = 06DE33AC1958BEA800A6F7D8 /* SCdel_bufferPtr.c */; };
+		06F26DD61959FD09006F74A8 /* SCopen_event_accept.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F26DD51959FD09006F74A8 /* SCopen_event_accept.c */; };
+		06F26DD8195A2026006F74A8 /* SCdefault.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F26DD7195A2026006F74A8 /* SCdefault.c */; };
+		06F26DFF195CD2EE006F74A8 /* SCreload_config.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F26DFE195CD2EE006F74A8 /* SCreload_config.c */; };
+		06F61B48194E7607005B0BB5 /* SCwait_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B47194E7607005B0BB5 /* SCwait_event.c */; };
+		06F61B4A194F9347005B0BB5 /* SCinitialize_events.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B49194F9347005B0BB5 /* SCinitialize_events.c */; };
+		06F61B50194F98EF005B0BB5 /* SCopen_event_path.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B4F194F98EF005B0BB5 /* SCopen_event_path.c */; };
+		06F61B7219528FD6005B0BB5 /* SCopen_event_socket.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B7119528FD6005B0BB5 /* SCopen_event_socket.c */; };
+		06F61B7419529C65005B0BB5 /* SCevents.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F61B7319529C65005B0BB5 /* SCevents.h */; };
+		06F61B781952E9C5005B0BB5 /* SCopen_event_listen.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B771952E9C5005B0BB5 /* SCopen_event_listen.c */; };
+		06F61B7A195330FA005B0BB5 /* SCdisplayEvent.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B79195330FA005B0BB5 /* SCdisplayEvent.c */; };
+		06F61B7C19534D40005B0BB5 /* SCstart_event_process.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B7B19534D40005B0BB5 /* SCstart_event_process.c */; };
+		06F61B7E19536AA4005B0BB5 /* SCload_event_config.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B7D19536AA4005B0BB5 /* SCload_event_config.c */; };
+		06F61B8019536BD8005B0BB5 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F61B7F19536BD8005B0BB5 /* config.h */; };
+		06F61B821953C666005B0BB5 /* SCload_event_function.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B811953C666005B0BB5 /* SCload_event_function.c */; };
+		06F61B841953F62D005B0BB5 /* SCtest_events.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B831953F62D005B0BB5 /* SCtest_events.c */; };
+		06F61B88195474F1005B0BB5 /* SCcreate_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B87195474F1005B0BB5 /* SCcreate_event.c */; };
+		06F61B8A19548995005B0BB5 /* SCdelete_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B8919548995005B0BB5 /* SCdelete_event.c */; };
+		06F61B8C1954BD7E005B0BB5 /* SCget_eventPtr.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B8B1954BD7E005B0BB5 /* SCget_eventPtr.c */; };
+		06F61B8E1954E8BD005B0BB5 /* SCenviron.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B8D1954E8BD005B0BB5 /* SCenviron.c */; };
+		06F61B901955270A005B0BB5 /* SCvalidate_event.c in Sources */ = {isa = PBXBuildFile; fileRef = 06F61B8F1955270A005B0BB5 /* SCvalidate_event.c */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		0698C39819569E1500E0C037 /* SCgetClientAddr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCgetClientAddr.c; sourceTree = "<group>"; };
+		06DE33A819587B4700A6F7D8 /* SCdel_eventPtr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCdel_eventPtr.c; sourceTree = "<group>"; };
+		06DE33AA1958A96D00A6F7D8 /* SCget_bufferPtr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCget_bufferPtr.c; sourceTree = "<group>"; };
+		06DE33AC1958BEA800A6F7D8 /* SCdel_bufferPtr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCdel_bufferPtr.c; sourceTree = "<group>"; };
+		06F26DD41959E41E006F74A8 /* libevent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = libevent.h; sourceTree = "<group>"; };
+		06F26DD51959FD09006F74A8 /* SCopen_event_accept.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCopen_event_accept.c; sourceTree = "<group>"; };
+		06F26DD7195A2026006F74A8 /* SCdefault.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCdefault.c; sourceTree = "<group>"; };
+		06F26DFE195CD2EE006F74A8 /* SCreload_config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCreload_config.c; sourceTree = "<group>"; };
 		06F61B39194E4EB4005B0BB5 /* libevents.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libevents.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F61B47194E7607005B0BB5 /* SCwait_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCwait_event.c; sourceTree = "<group>"; };
+		06F61B49194F9347005B0BB5 /* SCinitialize_events.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCinitialize_events.c; sourceTree = "<group>"; };
+		06F61B4B194F9836005B0BB5 /* libtcp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtcp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F61B4F194F98EF005B0BB5 /* SCopen_event_path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCopen_event_path.c; sourceTree = "<group>"; };
+		06F61B7119528FD6005B0BB5 /* SCopen_event_socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCopen_event_socket.c; sourceTree = "<group>"; };
+		06F61B7319529C65005B0BB5 /* SCevents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCevents.h; sourceTree = "<group>"; };
+		06F61B771952E9C5005B0BB5 /* SCopen_event_listen.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCopen_event_listen.c; sourceTree = "<group>"; };
+		06F61B79195330FA005B0BB5 /* SCdisplayEvent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCdisplayEvent.c; sourceTree = "<group>"; };
+		06F61B7B19534D40005B0BB5 /* SCstart_event_process.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCstart_event_process.c; sourceTree = "<group>"; };
+		06F61B7D19536AA4005B0BB5 /* SCload_event_config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCload_event_config.c; sourceTree = "<group>"; };
+		06F61B7F19536BD8005B0BB5 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = ../sharedmem/config.h; sourceTree = "<group>"; };
+		06F61B811953C666005B0BB5 /* SCload_event_function.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCload_event_function.c; sourceTree = "<group>"; };
+		06F61B831953F62D005B0BB5 /* SCtest_events.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCtest_events.c; sourceTree = "<group>"; };
+		06F61B87195474F1005B0BB5 /* SCcreate_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCcreate_event.c; sourceTree = "<group>"; };
+		06F61B8919548995005B0BB5 /* SCdelete_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCdelete_event.c; sourceTree = "<group>"; };
+		06F61B8B1954BD7E005B0BB5 /* SCget_eventPtr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCget_eventPtr.c; sourceTree = "<group>"; };
+		06F61B8D1954E8BD005B0BB5 /* SCenviron.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCenviron.c; sourceTree = "<group>"; };
+		06F61B8F1955270A005B0BB5 /* SCvalidate_event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SCvalidate_event.c; sourceTree = "<group>"; };
+		06F61B911955E114005B0BB5 /* SCevent_keywords.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCevent_keywords.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +78,9 @@
 		06F61B30194E4EB4005B0BB5 = {
 			isa = PBXGroup;
 			children = (
+				06F61B4B194F9836005B0BB5 /* libtcp.dylib */,
+				06F61B41194E4F32005B0BB5 /* include */,
+				06F61B40194E4F26005B0BB5 /* source */,
 				06F61B3A194E4EB4005B0BB5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -36,6 +93,46 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		06F61B40194E4F26005B0BB5 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				06F61B87195474F1005B0BB5 /* SCcreate_event.c */,
+				06F26DD7195A2026006F74A8 /* SCdefault.c */,
+				06DE33AC1958BEA800A6F7D8 /* SCdel_bufferPtr.c */,
+				06DE33A819587B4700A6F7D8 /* SCdel_eventPtr.c */,
+				06F61B8919548995005B0BB5 /* SCdelete_event.c */,
+				06F61B79195330FA005B0BB5 /* SCdisplayEvent.c */,
+				06F61B8D1954E8BD005B0BB5 /* SCenviron.c */,
+				06DE33AA1958A96D00A6F7D8 /* SCget_bufferPtr.c */,
+				06F61B8B1954BD7E005B0BB5 /* SCget_eventPtr.c */,
+				0698C39819569E1500E0C037 /* SCgetClientAddr.c */,
+				06F61B49194F9347005B0BB5 /* SCinitialize_events.c */,
+				06F61B7D19536AA4005B0BB5 /* SCload_event_config.c */,
+				06F61B811953C666005B0BB5 /* SCload_event_function.c */,
+				06F26DD51959FD09006F74A8 /* SCopen_event_accept.c */,
+				06F61B771952E9C5005B0BB5 /* SCopen_event_listen.c */,
+				06F61B4F194F98EF005B0BB5 /* SCopen_event_path.c */,
+				06F61B7119528FD6005B0BB5 /* SCopen_event_socket.c */,
+				06F26DFE195CD2EE006F74A8 /* SCreload_config.c */,
+				06F61B7B19534D40005B0BB5 /* SCstart_event_process.c */,
+				06F61B831953F62D005B0BB5 /* SCtest_events.c */,
+				06F61B8F1955270A005B0BB5 /* SCvalidate_event.c */,
+				06F61B47194E7607005B0BB5 /* SCwait_event.c */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		06F61B41194E4F32005B0BB5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				06F61B7F19536BD8005B0BB5 /* config.h */,
+				06F61B7319529C65005B0BB5 /* SCevents.h */,
+				06F61B911955E114005B0BB5 /* SCevent_keywords.h */,
+				06F26DD41959E41E006F74A8 /* libevent.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -43,6 +140,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F61B8019536BD8005B0BB5 /* config.h in Headers */,
+				06F61B7419529C65005B0BB5 /* SCevents.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +196,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06F26DFF195CD2EE006F74A8 /* SCreload_config.c in Sources */,
+				06F61B48194E7607005B0BB5 /* SCwait_event.c in Sources */,
+				06DE33A919587B4700A6F7D8 /* SCdel_eventPtr.c in Sources */,
+				06F61B50194F98EF005B0BB5 /* SCopen_event_path.c in Sources */,
+				0698C39919569E1500E0C037 /* SCgetClientAddr.c in Sources */,
+				06F61B7E19536AA4005B0BB5 /* SCload_event_config.c in Sources */,
+				06F61B781952E9C5005B0BB5 /* SCopen_event_listen.c in Sources */,
+				06F61B8C1954BD7E005B0BB5 /* SCget_eventPtr.c in Sources */,
+				06DE33AD1958BEA800A6F7D8 /* SCdel_bufferPtr.c in Sources */,
+				06F61B841953F62D005B0BB5 /* SCtest_events.c in Sources */,
+				06F61B821953C666005B0BB5 /* SCload_event_function.c in Sources */,
+				06F61B4A194F9347005B0BB5 /* SCinitialize_events.c in Sources */,
+				06F61B8A19548995005B0BB5 /* SCdelete_event.c in Sources */,
+				06DE33AB1958A96D00A6F7D8 /* SCget_bufferPtr.c in Sources */,
+				06F61B901955270A005B0BB5 /* SCvalidate_event.c in Sources */,
+				06F61B8E1954E8BD005B0BB5 /* SCenviron.c in Sources */,
+				06F26DD61959FD09006F74A8 /* SCopen_event_accept.c in Sources */,
+				06F61B88195474F1005B0BB5 /* SCcreate_event.c in Sources */,
+				06F61B7219528FD6005B0BB5 /* SCopen_event_socket.c in Sources */,
+				06F61B7C19534D40005B0BB5 /* SCstart_event_process.c in Sources */,
+				06F61B7A195330FA005B0BB5 /* SCdisplayEvent.c in Sources */,
+				06F26DD8195A2026006F74A8 /* SCdefault.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +240,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = /usr/local/lib/;
+				CONFIGURATION_TEMP_DIR = /usr/local/lib/;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -138,6 +261,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYMROOT = /usr/local/lib/;
 			};
 			name = Debug;
 		};
@@ -157,6 +281,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = /usr/local/lib/;
+				CONFIGURATION_TEMP_DIR = /usr/local/lib/;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -170,6 +296,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
+				SYMROOT = /usr/local/lib/;
 			};
 			name = Release;
 		};
@@ -208,6 +335,7 @@
 				06F61B3F194E4EB4005B0BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
